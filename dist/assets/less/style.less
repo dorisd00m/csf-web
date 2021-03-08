@@ -1,0 +1,384 @@
+
+
+@import url("color.less");
+@primary   : #009688;
+@success   : #4CAF50;
+@info      : #03A9F4;
+@warning   : #FF5722;
+@danger    : #F44336;
+@w         : #fff;
+@theme-primary-1: #336699;
+@theme-primary-2: #2d5a88;
+@theme-primary-3: #28DEDD;
+.fprime {
+	font-family: 'android-black';
+
+}
+.fsecond {
+	font-family: 'HelveticaNeueLTStd-Bd';
+}
+html {
+	// overflow-x: hidden;	
+}
+body {
+	font-family: 'segoe-ui-bold',sans-serif;
+	overflow-x: hidden;
+	height: 100%;
+}
+html,body {
+	&.show {
+		overflow: hidden;
+	}
+}
+.text-dark {
+	color: #000 !important;
+}
+.card-wishlist {
+	.transition;
+	&:hover {
+		border-color: #4CAF50;
+	}
+}
+.text-secondary {
+	color: #4D4D4D !important;
+}
+.home-slide {
+	overflow: visible;
+	
+	.swiper-slide {
+		.transition;
+		&.swiper-slide-active {
+			transform: scale(2);
+			box-shadow: 0 0 20px 10px rgba(0,0,0,.65);
+			z-index: 9;
+		}
+	}
+}
+.container {
+	@media (min-width: 992px) and (max-width: 1366px) {
+		max-width: 1200px;
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		max-width: none;
+	}
+	@media (min-width: 576px) and (max-width: 991px) {
+		max-width: none;
+	}
+	
+}
+#top {
+	.menunav {
+		height: 50px;
+		background: #1E1E1E;
+		.menu-logo {
+			display: block;
+			text-decoration: none;
+			text-align: right;
+			width: 316px;
+			height: 55px;
+			background: url('./../../images/csflogobar.png') no-repeat top right;
+			background-size: 100% 100%;
+			padding-right: 45px;
+			padding-top: 5px;
+			img {
+				height: 37px;
+			}
+		}
+		.nav {
+			margin-top: 5px;
+			> li {
+				a {
+					color: #fff;
+					font-size: 14px;
+					text-transform: uppercase;
+					.fprime;
+					&:hover,
+					&.active {
+						color: #F9B200;
+					}
+				}
+			}
+		}
+		.btn-facebook {
+			background: #0063B5;
+			color: #fff;
+			height: 50px;
+			margin: 0;
+			font-size: 14px;
+			border-radius: 0;
+			padding: 1rem 0.75rem;
+			position: relative;
+			.fprime;
+			&:before {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 0;
+				height: 0;
+				border-bottom: 50px solid #0063B5;
+				border-left: 26px solid transparent;
+				top: -1px;
+				left: -27px;
+			}
+			img {
+				vertical-align: middle;
+				width: 20px;
+				margin-right: 10px;
+			}
+		}
+	}
+}
+#middle {
+	.home-banner {
+		background: #1C1C1C url("./../../images/csfbg.png") no-repeat center center;
+		background-size: 100% auto;
+		color: #fff;
+		.fprime;
+		.container {
+			.row {
+				min-height: 550px;
+			}
+		}
+		h1 {
+			color: #fff;
+			margin-bottom: 50px;
+			.fprime;
+			small.small-top {
+				display: block;
+				font-size: 14px;
+			}
+			span.big {
+				display: block;
+				font-size: 48px;
+				small {
+					font-size: 38px;
+				}
+				.yellow {
+					color: #F9B200;
+					font-size: 60px;
+				}
+			}
+
+		}
+		.btn-download {
+			background: #fff;
+			font-size: 24px;
+			padding: 20px 25px;
+			border-radius: 5px;
+			box-shadow:	2px 4px 5px rgba(0,0,0,.65);
+			color: #000;
+			.fprime;
+		}
+		.home-float-img {
+			height: 550px;
+			position: relative;
+			.img1 {
+				position: absolute;
+				bottom: 0;
+				width: 811px;
+				left: -130px;
+			}
+			.img2 {
+				position: absolute;
+				bottom: 0;
+				width: 500px;
+				left: 0;
+			}
+		}
+	}
+	.featured-banner {
+		background: url('./../../images/polos.jpg') no-repeat center center;
+		background-size: auto 100%;
+		.container {
+			height: 900px;
+			padding: 90px 15px;
+		}
+		h2 {
+			color: #fff;
+			margin-bottom: 220px;
+			text-align: center;
+			.fprime;
+			small.small-top {
+				display: block;
+				font-size: 14px;
+			}
+			span.big {
+				display: block;
+				font-size: 48px;
+				small {
+					font-size: 38px;
+				}
+				.yellow {
+					color: #F9B200;					
+				}
+			}
+		}
+		.jumbo-img {
+			width: 100%;
+		}
+	}
+	.join-banner {
+		background: #202020;
+		.container {			
+			.row {
+				height: 440px;
+			}
+		}
+		h2 {
+			color: #fff;
+			margin-bottom: 50px;
+			text-align: center;
+			.fprime;
+			small.small-top {
+				display: block;
+				font-size: 14px;
+			}
+			span.big {
+				display: block;
+				font-size: 48px;
+				small {
+					font-size: 24px;
+				}
+				.yellow {
+					color: #F9B200;					
+				}
+			}
+		}
+		.btn {
+			height: 77px;
+			margin: 0;
+			font-size: 14px;
+			border-radius: 0;
+			padding: 1.4rem 3rem;
+			display: block;
+			max-width: 470px;
+			text-align: left;
+			position: relative;
+			margin-left: 27px;
+			margin-bottom: 20px;
+			.transition;
+			.fprime;
+			&:hover {
+				transform: scale(1.1);
+				&:before {
+					left: -26.3px;
+				}
+				&:after {
+					right: -26.3px;
+				}
+			}
+			&:before {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 0;
+				height: 0;
+				border-bottom: 77px solid #0063B5;
+				border-left: 26px solid transparent;
+				top: -1px;
+				left: -27px;
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 0;
+				height: 0;
+				border-top: 77px solid #0063B5;
+				border-right: 26px solid transparent;
+				top: -1px;
+				right: -27px;
+			}
+			img {
+				vertical-align: middle;
+				width: 40px;
+				margin-right: 20px;
+			}
+			&.btn-facebook {
+				background: #0063B5;
+				color: #fff;
+				font-size: 20px;
+			}
+			&.btn-ucoz {
+				background: #2F2F2F;
+				color: #fff;
+				font-size: 20px;
+				&:before {border-bottom-color: #2F2F2F}
+				&:after {border-top-color: #2F2F2F}
+			}
+		}
+		.home-float-img {
+			position: relative;
+			height: 440px;
+			.img1 {
+				position: absolute;
+				bottom: 0;
+				width: 350px;
+				left: 50px;
+				z-index: 2;
+			}
+			.img2 {
+				position: absolute;
+				bottom: 0;
+				width: 370px;
+				right: -100px;
+				z-index: 1;
+			}
+		}
+	}
+	.download-banner {
+		background: #EBEBEB;
+		.container {
+			padding: 50px 0;
+		}
+		h2 {
+			color: #333;
+			
+			margin-bottom: 50px;
+			text-align: center;
+			.fprime;
+			small.small-top {
+				display: block;
+				font-size: 14px;
+			}
+			span.big {
+				display: block;
+				font-size: 48px;
+				small {
+					font-size: 24px;
+				}
+				.yellow {
+					color: #F9B200;					
+				}
+			}
+		}
+		.card {
+			border-radius: 0;
+			.fprime;
+			.card-header {
+				border-radius: 0;
+				background: #2F2F2F;
+				color: #fff;
+				font-size: 24px;
+			}
+		}
+	}
+}
+#footer {
+	background: #1E1E1E;
+	padding: 10px 0;
+	.nav {
+		margin-top: 5px;
+		> li {
+			a {
+				color: #fff;
+				font-size: 14px;
+				text-transform: uppercase;
+				.fprime;
+				&:hover {
+					color: #F9B200;
+				}
+			}
+		}
+	}
+}

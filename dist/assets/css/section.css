@@ -1,0 +1,632 @@
+
+
+@keyframes down {
+
+	from {bottom:-70px;}
+
+	to {bottom:-30px;}
+
+}
+
+img {
+
+	max-width: auto;
+
+}
+
+#landing {
+
+	padding-top: 50px;
+
+	background: #333 url(../img/daylight.jpg);
+
+	background-size: 100% 100%;
+
+}
+
+
+
+#landing .down{
+
+	position: absolute;
+
+	left: 50%;
+
+	bottom: 0;
+/*
+	-webkit-animation: down .5s ease infinite alternate;
+
+	-moz-animation: down .5s ease infinite alternate;
+
+	-o-animation: down .5s ease infinite alternate;
+
+	animation: down .5s ease infinite alternate;
+*/
+}
+
+
+
+#landing .down >.down-btn {
+	position: relative;	
+	left: -50%;
+	bottom: 100px;
+	/*border: 3px solid #fff;	*/
+	padding:10px 20px;
+	border-radius: 0;
+	color: #fff;
+	font-size: 20px;
+	background: #D91E18;
+
+}
+
+
+
+#landing .down >.down-btn:focus {
+
+	outline: 0;
+
+}
+
+#landing .col-caption{
+	color: #fff;
+	font-family: Ubuntu Condensed;
+}
+
+#landing .col-caption h1 {
+	font-size: 70px;
+	margin: 5px 0;
+}
+
+#landing .col-caption h2 {
+	font-size: 23px;
+	margin: 5px 0;
+}
+
+#landing .list-unstyled.col-list > li {
+	margin: 5px 0;
+	font-size: 23px;
+}
+
+#landing .list-unstyled.col-list > li .fa-check {
+	color: #87D37C;
+}
+
+#service {
+
+	padding-top: 50px;
+
+	background: #333 url(../img/parallax-bg1.jpg) no-repeat fixed;
+
+	background-size: 100% auto;
+
+}
+
+
+
+#service h1{
+
+	color: #fff;
+
+	margin: 40px 0;
+
+}
+
+
+
+#service .circle-crop {
+
+	border-radius: 100%;
+
+	width: 270px;
+
+	height: 270px;
+
+	border:10px solid #fff;
+
+	background: #fff;
+
+	overflow: hidden;
+
+}
+
+#service .col-item > center > a >.circle-crop {
+
+	color: #333;
+
+}
+/*
+#service .circle-crop:hover {
+	width: 250px;
+
+	height: 250px;
+}
+*/
+
+#service .col-item > center > a >.circle-crop:first-child:after {
+
+	content: attr(title);
+
+	position: absolute;
+
+	width: 120px;
+
+	height: 120px;
+
+	right: 100px;
+
+	bottom: 0;
+
+	background: #fff;
+
+	border-radius: 100%;
+
+	padding: 10px;
+
+	padding-top: 30px;
+
+	text-align: center;	
+
+	vertical-align: middle;
+
+	font-family: Voltaire-Regular;
+
+	font-size: 20px;	
+
+	opacity: 0;
+
+	-webkit-transition: all .2s ease-in-out;
+
+	-moz-transition: all .2s ease-in-out;
+
+	-o-transition: all .2s ease-in-out;
+
+	transition: all .2s ease-in-out;
+
+
+
+}
+
+
+#service #wc .circle-crop {
+	border:10px solid #19B5FE;
+}
+
+#service #wc .circle-crop:after {
+	background: #19B5FE;
+	color: #fff;
+	font-size: 25px;
+}
+
+#service #wa .circle-crop {
+	border:10px solid #EF4836;
+}
+
+#service #wa .circle-crop:after {
+	background: #EF4836;
+	color: #fff;
+	font-size: 25px;
+}
+
+#service #ma .circle-crop {
+	border:10px solid #2ECC71;
+}
+
+#service #ma .circle-crop:after {
+	background: #2ECC71;
+	color: #fff;
+	font-size: 25px;
+}
+
+
+
+
+#service .col-item > center > a >.circle-crop:nth-child(2):after {
+
+	background: #D91E18;
+
+}
+
+
+
+#service .col-item > center > a >.circle-crop:last-child:after {
+
+
+
+}
+
+
+
+#service .col-item > center > a >.circle-crop:hover:after {
+
+	opacity: 1;
+
+	right: 0;
+
+}
+
+
+
+#service .col-item > center > a >.circle-crop img {
+
+	margin-left: -50px;
+
+	position: relative;
+
+	height: 100%;	
+
+	width: auto;
+
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+
+	-moz-transition: all .2s ease-in-out;
+
+	-o-transition: all .2s ease-in-out;
+
+	transition: all .2s ease-in-out;
+	z-index: 0;
+
+}
+
+
+
+#service .col-item > center > a >.circle-crop:hover img {
+
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	opacity: .5;
+
+}
+
+
+
+
+
+#web-custom {	
+
+	background: #fefefe;
+
+}
+
+#web-custom h1 {
+
+	margin-top: 150px;
+
+}
+
+
+
+
+
+
+
+.google-adv#digital-market {
+
+	background: #59ABE3 url(../img/material2.png) no-repeat fixed;
+
+	background-size: 100% auto;
+
+	color: #fff;
+
+}
+
+
+
+.google-adv#digital-market h2 {
+
+	color: #f3f3f3;
+
+	text-align: center;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+}
+
+
+
+.socmedmanage#digital-market {
+
+	background: #fff url(../img/social-people.jpg) no-repeat center bottom;
+
+	background-size: 50% auto;
+
+	color: #333;
+
+}
+
+
+
+.socmedmanage#digital-market h2 {
+
+	color: #4183D7;
+
+	text-align: center;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+}
+
+
+
+#client {
+
+	background: #1a1a1a;	
+
+	color: #fff;	
+
+}
+
+
+
+#client .left-client {
+
+	position: relative;
+
+	max-height: 100vh;
+
+	padding:20px;
+
+}
+
+
+
+
+
+#client .right-client {
+
+	background: #333;
+
+	height: 100vh;
+
+	padding:0;
+
+}
+
+
+
+#client .right-client .brand-name{
+
+	margin:0;
+
+	margin-top: 0px;
+
+}
+
+
+
+#client .right-client .brand-name > li {
+
+	font-family: khand;
+
+	font-size: 20px;
+
+	text-align: center;
+
+	padding: 20px 0;
+
+	min-height: 50px;
+
+	border-bottom: 1px solid #484848;
+
+	border-top: 1px solid #111;	
+
+	-webkit-transition: all .2s ease-in-out;
+
+	-moz-transition: all .2s ease-in-out;
+
+	-o-transition: all .2s ease-in-out;
+
+	transition: all .2s ease-in-out;
+
+}
+
+
+
+#client .right-client .brand-name > li:first-child {
+
+	border-top: 1px solid transparent;
+
+}
+
+#client .right-client .brand-name > li:last-child {
+
+	border-bottom: 0;
+
+}
+
+#client .right-client .brand-name > li:hover {
+
+	background: #fff;
+
+	border-bottom: 1px solid transparent;
+
+	border-top: 1px solid transparent;
+
+	cursor: pointer;
+
+	color: #333;
+
+}
+
+
+
+#client .right-client .brand-name > li > a {
+
+	color: #fff;
+
+	transition: all .2s ease-in-out;
+
+}
+
+#client .right-client .brand-name > li:hover > a,
+
+#client .right-client .brand-name > li > a:hover {
+
+	color: #333;
+
+}
+
+
+
+#client .right-client .brand-name > .clearfix:hover {
+
+	background: transparent;	
+
+	border-top: 1px solid #111;
+
+	cursor: default;
+
+}
+
+
+
+#client .right-title {
+
+	position: relative;
+
+	top: 0;
+
+	width: 100%;	
+
+	box-shadow: 2px 0 2px #000;
+
+}
+
+
+
+#client .right-client .right-title > h1 {
+
+	margin: 0;
+
+	color: #fff;	
+
+	padding: 30px 0;
+
+}
+
+
+
+.img-client {
+
+	opacity: .5;
+
+	-webkit-transition: all .5s ease-in-out;
+
+	-moz-transition: all .5s ease-in-out;
+
+	-o-transition: all .5s ease-in-out;
+
+	transition: all .5s ease-in-out;
+
+}
+
+
+
+.img-client-light {
+
+	opacity: 1;
+
+}
+
+
+
+#product {	
+
+	background: url(../img/spotlight1.png) no-repeat;
+
+	background-size: 100% auto;
+
+}
+
+
+
+#product h1 {
+
+	margin-top: 0;
+
+	background: #333;
+
+	padding: 10px;
+
+	color: #fff;
+
+	width: 200px;
+
+	text-align: center;
+
+}
+
+
+
+#product h2{
+
+	font-family: Khand;
+
+	font-size: 30px;
+
+	font-weight: bold;
+
+}
+
+
+
+#recruitment {
+
+	padding-top: 50px;
+
+	background: #F6F6F6 url(../img/recruitment.jpg) no-repeat fixed bottom right;
+
+	background-size: 100% auto;
+
+}
+
+
+
+#recruitment h1 {
+
+	background: rgba(246,246,246,.9);
+
+	border-radius: 2px;
+
+}
+
+
+
+#recruitment p{
+
+	background: rgba(246,246,246,.9);
+
+	padding: 20px;
+
+	text-align: center;
+
+	border-radius: 2px;
+
+}
+
+@media (max-width: 767px) {
+
+	#service,
+
+	#web-custom,
+
+	#web-app,
+
+	#mobile-app,
+
+	#digital-market,
+
+	#client, 
+
+	#product,
+
+	#recruitment{
+
+		background-size: auto 100%;
+
+	}
+
+}

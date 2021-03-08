@@ -1,0 +1,158 @@
+/* Global */
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+
+#header {
+	width: 100%;
+	height: 79px;
+	margin: 0 auto;
+}
+#header .logo {
+	position: absolute;
+	width: 105px;
+	height: 107px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+#header .logo-text {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 170px;
+}
+#menu ul{
+	float: right;
+	height: 79px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu li {
+	width: 100px;
+	text-align: center;
+	text-transform: capitalize;
+	padding-top: 35px;
+	padding-bottom: 27px;
+	float: left;
+}
+#banner {
+	width: 100%;
+	height: 417px;
+	margin: 0 auto;
+}
+#banner {
+	margin: 0 auto;
+}
+#banner .text {
+	width: 282px;
+	height: 282px;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 100px;
+	border-radius: 141px;
+	-moz-border-radius: 141px;
+	-webkit-border-radius: 141px;
+	-o-border-radius: 141px;
+}
+#banner .text:before {
+	content: "";
+	width: 88px;
+	height: 75px;
+	display: block;
+	margin-left: -30px;
+}
+#banner .text:after {
+	content: "";
+	width: 35px;
+	height: 26px;
+	display: block;
+	margin-left: 255px;
+	margin-top: 75px;
+	position: absolute;
+}
+#banner .text .content {
+	width: 200px;
+	margin: -30px auto;
+}
+#banner .text .content a {
+	float: left;
+	margin-left: 50px;
+	position: absolute;
+}
+#banner .text .content a:after {
+	display: block;
+	content: "";
+	background: url(../images/go.png) no-repeat right;
+	height: 48px;
+	width: 48px;
+	float: right;
+	margin-top: -35px;
+	margin-left: 50px;
+}
+.clear {
+	clear: both;
+}
+#bar {
+	width: 100%;
+	height: 45px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#content {
+	width: 100%;
+	min-height: 200px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	float: left;
+}
+#content .left {
+	width: 480px;
+	height: auto;
+	float: left;
+}
+#content .right {
+	width: 500px;
+	height: auto;
+	float: right;
+}
+#content #price {
+	width: 100%;
+}
+#content #price ul {
+	list-style: none;
+	margin-top: 35px;
+	margin-left: -20px;
+	padding: 0;
+}
+#content #price li {
+	width: 466px;
+	height: 280px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+#content #price .box-image {
+	width: 237px;
+	height: 280px;
+	float: left;
+}
+#content #price .box-image .img3 {
+	margin-top: 40px;
+}
+#content #price .box-image .img4 {
+	margin-top: 60px;
+}
+#content #price .box-text {
+	width: 189px;
+	height: 200px;
+	padding: 20px;
+	padding-top: 40px;
+	float: left;
+}

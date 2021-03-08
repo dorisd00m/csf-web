@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(../fonts/raleway/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(../fonts/raleway/xkvoNo9fC8O2RDydKj12bxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(../fonts/raleway/JbtMzqLaYbbbCL9X6EvaIxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+body {
+	font-family: 'Raleway',Arial,Helvetica,sans-serif;
+	font-size: 14px;
+}
+#header .logo-text h1 {
+	font-size: 24px;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+}
+#header .logo-text h1 span {
+	font-weight: 300;
+}
+#menu ul a {
+	font-weight: 600;
+}
+#banner .text .content h1 {
+	padding: 0;
+	padding-left: 20px;
+	margin: 0;
+	font-size: 30px;
+	font-weight: 100;
+}
+#banner .text .content h1 span {
+	padding-left: 0;
+	margin-left: -20px;
+}
+#banner .text .content a {
+	font-size: 20px;
+}
+#bar .linkbar h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: 100;
+	font-size: 24px;
+	text-align: right;
+}
+#content h1 {
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+#content #price .box-text h1 {
+	font-size: 24px;
+	font-weight: 100;
+	text-transform: capitalize;
+}
+#content #price .box-text a {
+	margin-top: 20px;
+}

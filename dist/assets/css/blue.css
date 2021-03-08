@@ -1,0 +1,244 @@
+body {
+	background: #FFF;
+	color: #333;
+}
+#header {
+	background: #1a1a1a;
+	border-bottom: 1px solid #1a1a1a;
+}
+#header:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 5px;
+	background: rgba(0,0,0,0.5);
+	margin-top: 80px;
+	position: absolute;
+}
+#header .logo-text h1 {
+	color: #D2D2D2;
+}
+#header .logo-text h1 span {
+	color: #6dc2e9;
+}
+#menu li {
+	background: #1a1a1a;
+	color: #D2D2D2;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+#menu li:hover {
+	background: #4285cf;
+	color: #FFF;
+}
+#menu li:active {
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+	-o-box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+}
+#banner .bg {
+	background: #333 url(../images/banner.jpg) no-repeat center center;
+	height: 517px;
+}
+#banner .text {
+	background: #f6f6f6;
+}
+#banner .text:before {
+	background: url(../images/banner-items1.png) no-repeat;
+}
+#banner .text:after {
+	background: url(../images/banner-items2.png) no-repeat;
+}
+#banner .text .content h1 {
+	color: #1b1b1b;
+}
+#banner .text .content h1 span {
+	color: #0d8fcb;
+}
+#banner .text .content a {
+	color: #FFF;
+	background: #0d5693;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+#banner .text .content a:hover {
+	color: #FFF;
+	background: #4285CF;
+}
+#banner .text .content a:active {
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+	-o-box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+}
+/*#banner .text .content a:after {
+	background: url(../images/go.png) no-repeat right;
+}*/
+#bar {
+	background: #333;
+	color: #FFF;
+}
+#bar .linkbar h2 a {
+	color: #FFF;
+}
+#content.bg1 {
+	background: url(../images/banner2.jpg) no-repeat center center;
+}
+#content.bg2 {
+	background: url(../images/banner3.jpg) no-repeat center center;
+}
+#content .box2 .facebook {
+	background: url(../images/ico_fb1.jpg) no-repeat;
+}
+#content .box2 .facebook:hover {
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+	-webkit=box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+	-o=box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+}
+#content .box2 .twitter {
+	background: url(../images/ico_twit1.jpg) no-repeat;
+}
+#content .box2 .twitter:hover {
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+	-webkit=box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+	-o=box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+}
+#content .box2 .gp {
+	background: url(../images/ico_gp1.jpg) no-repeat;
+}
+#content .box2 .gp:hover {
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+	-webkit=box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+	-o=box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+}
+#content.bg3 {
+	border-bottom: 10px solid #4285CF;
+}
+#content .box1 .feedback a {
+	background: #4285CF;
+	color: #FFF;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+#content .box1 .feedback a:hover {
+	background: #0D5693;
+}
+#content .box1 .feedback a:active {
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+	-webkit=box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+	-o=box-shadow: 0px 0px 20px rgba(0,0,0,0.5) inset;
+}
+#content h1 {
+	color: #4285cf;
+}
+#content.orange h1 {
+	color: #FFF;
+}
+#content.bg1 h1 {
+	color: #333;
+}
+#content.bg2 h1 {
+	color: #333;
+}
+#content.yellow h1 {
+	color: #FFF;
+}
+#content.red h1 {
+	color: #FFF;
+}
+#content.blue h1 {
+	color: #FFF;
+}
+#content.green h1 {
+	color: #FFF;
+}
+#content.softgrey {
+	background: #efefef;
+}
+#content.white {
+	background: #fcfcf9;
+}
+#content.orange {
+	background: #fa6800;
+	color: #FFF;
+}
+#content.green {
+	background: #80ba01;
+	color: #FFF;
+}
+#content.yellow {
+	background: #f7b650;
+	color: #FFF;
+}
+#content.red {
+	background: #ed1c24;
+	color: #FFF;
+}
+#content.black {
+	background: #2d2c2c;
+	color: #FFF;
+}
+#content.black a {
+	color: #D2D2D2;
+	font-weight: 600;
+}
+#content.black a:hover {
+	color: #FFF;
+}
+#content.blue {
+	background: #4285cf;
+	color: #FFF;
+}
+#content #price li {
+	background: #FFF;
+}
+#content #price ul .red {
+	background: #ec5252;
+}
+#content #price ul .blue {
+	background: #4285cf;
+}
+#content #price .box-text h1 {
+	color: #000;
+}
+#content #price .box-text h1.white {
+	color: #FFF;
+}
+#content #price .box-text p.white {
+	color: #FFF;
+}
+#content #price .box-text a {
+	color: #4285cf;
+	font-weight: 600;
+}
+#content #price .box-text a.white {
+	color: #FFF;
+	font-weight: 600;
+}
+.triwikrama {
+	background: url(../images/logo1.png) no-repeat left center;
+}
+.wi {
+	/*background: url(../images/logo2.png) no-repeat left center;*/
+	background: none;
+}
+.teens {
+	background: url(../images/logo3.png) no-repeat left center;
+}
+#content .footer ul {
+	border-bottom: 1px dotted #666;
+}
+#content .footer .ul2 {
+	border-bottom: none;
+}

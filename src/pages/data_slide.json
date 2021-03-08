@@ -1,0 +1,30 @@
+{
+    "slide_data": [
+        {
+            "title": "1",
+            "desc": "",
+            "link": "",
+            "image": "images/pb_luxville0001.jpg"
+        }, {
+            "title": "2",
+            "desc": "",
+            "link": "",
+            "image": "images/pb_luxville0005.jpg"
+        }, {
+            "title": "3",
+            "desc": "",
+            "link": "",
+            "image": "images/pb_luxville0006.jpg"
+        }, {
+            "title": "4",
+            "desc": "",
+            "link": "",
+            "image": "images/pb_luxville0007.jpg"
+        }, {
+            "title": "5",
+            "desc": "",
+            "link": "",
+            "image": "images/pb_mstation0003.jpg"
+        }
+    ]
+}
